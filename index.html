@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+ <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="styles.css"> 
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans">
     <script src="buypower.js"></script>
-</head>
-<body>
-    <div class="root">
+ </head>
+ <body>
+   <div class="root">
       <div class="home-page">
-            <header class="contain">
-              <div class="header">
-                <nav>
+         <!---<header class="contain">
+          <div class="header">
+            <nav>
              <img src="https://buypower.ng/static/media/buypower-logo.f1a37804.png" alt="buypower logo" class="New-logo-2">
              <ul class="links-flex">
                 <li><a href="#">Merchant</a></li>
@@ -23,234 +23,226 @@
                 <li><a href="#">Blog</a></li>
                 <li class="green"><a href="order.html">Buy Electricity</a></li>
               </ul>
-                </nav>
-          
+            </nav>
+          </div>
+        </header>-->
+        <div class="container bg-img">
+          <div class="contain">
+            <div class="bg-imagetext"> 
+              <div class="disco-flex">
+                <form accept-charset="UTF-8" id="createOrderForm">
+                 <h1>Buy Electricity from the comfort of your home</h1>
+                 <h3>Enter your phone number to begin</h3>
+                 <div class="input">
+                   <input type="tel" id="phoneInput" autocomplete="off" 
+                   placeholder="0000-000-0000" name="phone" required="">
+                  </div>
+                  <div class="button">
+                    <button type="submit">Buy Electricity</button>
+                  </div>
+                 <div class="help">
+                   <h2>
+                      <a class="text-white" href="#">
+                       Need help? Call 0908-749-3044
+                      </a>
+                   </h2>
+                 </div>
+                </form>
               </div>
-          </header>
-          <div class="container bg-img">
-              <div class="contain">
-                  <div class="bg-imagetext"> 
-                      <div class="disco-flex">
-                         <form accept-charset="UTF-8" id="createOrderForm">
-                             <h1>Buy Electricity from the comfort of your home</h1>
-                             <h3>Enter your phone number to begin</h3>
-                             <div class="input">
-                                 <input type="tel" id="phoneInput" autocomplete="off" 
-                                 placeholder="0000-000-0000" name="phone" required="">
-                              </div>
-                              <div class="button">
-                                <button type="submit">Buy Electricity</button>
-                              </div>
-                             <div class="help">
-                                 <h2>
-                                    <a class="text-white" href="#">
-                                       Need help? Call 0908-749-3044
-                                    </a>
-                                 </h2>
-                             </div>
-                         </form>
-                      </div>
-                     
-                  </div>
-               </div>
-         </div>
-
-           
-          <div>
-              <section class="section-1">
-                  <div class="contain">
-                      <div>
-                          <p>Why Choose BuyPower?</p>
-                      </div>
-                      <div class="contain-sections">
-                          <div class="contain-sections-wrap">
-                              <svg class="service__support__mg" width="60px" height="60px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink"><title>loan</title><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Home-Copy" transform="translate(-368.000000, -1098.000000)"><g id="Group-23" transform="translate(0.000000, 900.000000)"><g id="Group-8" transform="translate(368.000000, 83.000000)"><g id="loan" transform="translate(0.000000, 115.000000)"><rect id="benefits-img" fill-opacity="0.15" fill="#8CA23B" x="0" y="0" width="80" height="80" rx="10"></rect><g id="Loan" transform="translate(25.000000, 24.000000)"><path d="M18.75,30.8815862 L18.75,30.8815862 L2.83007778,30.9813645 C1.27680726,30.9908574 0.00976287,29.7388215 0,28.1846432 C0,28.1787806 0,28.1729179 0,28.1670552 L0,3.79545392 C0,2.24124532 1.25919914,0.981310308 2.8125,0.981310308 L27.1875,0.981310308 C28.7408009,0.981310308 30,2.24124532 30,3.79545392 L30,16.0748476 L30,16.0748476" id="Path" stroke="#0D486E" stroke-width="2" stroke-linecap="round"></path><path d="M27.8125,28.75 C27.2955625,28.75 26.875,28.3294375 26.875,27.8125 C26.875,27.29475 26.45525,26.875 25.9375,26.875 C25.41975,26.875 25,27.29475 25,27.8125 C25,29.0346875 25.7838125,30.07675 26.875,30.46375 L26.875,30.9375 C26.875,31.45525 27.29475,31.875 27.8125,31.875 C28.33025,31.875 28.75,31.45525 28.75,30.9375 L28.75,30.46375 C29.8411875,30.07675 30.625,29.0346875 30.625,27.8125 C30.625,26.2616875 29.3633125,25 27.8125,25 C27.2955625,25 26.875,24.5794375 26.875,24.0625 C26.875,23.5455625 27.2955625,23.125 27.8125,23.125 C28.3294375,23.125 28.75,23.5455625 28.75,24.0625 C28.75,24.58025 29.16975,25 29.6875,25 C30.20525,25 30.625,24.58025 30.625,24.0625 C30.625,22.8403125 29.8411875,21.79825 28.75,21.41125 L28.75,20.9375 C28.75,20.41975 28.33025,20 27.8125,20 C27.29475,20 26.875,20.41975 26.875,20.9375 L26.875,21.41125 C25.7838125,21.79825 25,22.8403125 25,24.0625 C25,25.6133125 26.2616875,26.875 27.8125,26.875 C28.3294375,26.875 28.75,27.2955625 28.75,27.8125 C28.75,28.3294375 28.3294375,28.75 27.8125,28.75 Z" id="Path" fill="#F7B418" fill-rule="nonzero"></path><rect id="Rectangle" fill="#0D486E" fill-rule="nonzero" x="4" y="7" width="22" height="2" rx="1"></rect><rect id="Rectangle" fill="#0D486E" fill-rule="nonzero" x="4" y="15" width="22" height="2" rx="1"></rect><rect id="Rectangle" fill="#0D486E" fill-rule="nonzero" x="4" y="23" width="11" height="2" rx="1"></rect></g></g></g></g></g></g></svg>
-                              <span>Buy Now, Pay in 14 Days.</span> <br>
-                              <span>You can Buy Electricity with a 
-                                loan on Buypower.ng and payback in 14 days.</span>
-                          </div>
-                          <div class="contain-sections-wrap">
-                             <svg class="service__support__mg" width="60px" height="60px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink"><title>ussd</title><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Home-Copy" transform="translate(-808.000000, -1098.000000)"><g id="Group-23" transform="translate(0.000000, 900.000000)"><g id="Group-8" transform="translate(368.000000, 83.000000)"><g id="Group-7" transform="translate(0.000000, 115.000000)"><g id="ussd" transform="translate(440.000000, 0.000000)"><rect id="benefits-img" fill-opacity="0.15" fill="#8CA23B" x="0" y="0" width="80" height="80" rx="10"></rect><g id="USSD" transform="translate(24.000000, 24.000000)" fill-rule="nonzero"><rect id="Rectangle" fill="#F7B418" x="0" y="20" width="32" height="3" rx="1"></rect><path d="M14.5867307,0.0514835511 C15.3869299,0.265896269 15.8618036,1.0884017 15.6473909,1.88860086 L7.88281954,30.8663756 C7.66840682,31.6665748 6.84590139,32.1414485 6.04570223,31.9270358 C5.24550308,31.7126231 4.77062934,30.8901177 4.98504206,30.0899185 L12.7496134,1.11214372 C12.9640261,0.311944568 13.7865316,-0.162929166 14.5867307,0.0514835511 Z" id="Rectangle" fill="#0D486E"></path><rect id="Rectangle" fill="#F7B418" x="0" y="10" width="32" height="3" rx="1"></rect><path d="M26.0596109,0.0514835511 C26.85981,0.265896269 27.3346837,1.0884017 27.120271,1.88860086 L19.3556997,30.8663756 C19.141287,31.6665748 18.3187815,32.1414485 17.5185824,31.9270358 C16.7183832,31.7126231 16.2435095,30.8901177 16.4579222,30.0899185 L24.2224936,1.11214372 C24.4369063,0.311944568 25.2594117,-0.162929166 26.0596109,0.0514835511 Z" id="Rectangle" fill="#0D486E"></path></g></g></g></g></g></g></g></svg>
-                              <span>Pay with USSD.</span> <br>
-                              <span>No internet? Buy Electricity by dialing *402*00009548*amount# 
-                                on any kind of mobile device.</span>
-                          </div>
-                          <div class="contain-sections-wrap">
-                              <svg class="service__support__mg" width="60px" height="60px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink"><title>calculator</title><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Home-Copy" transform="translate(-1248.000000, -1098.000000)"><g id="Group-23" transform="translate(0.000000, 900.000000)"><g id="Group-8" transform="translate(368.000000, 83.000000)"><g id="Group-7" transform="translate(0.000000, 115.000000)"><g id="calculator" transform="translate(880.000000, 0.000000)"><rect id="benefits-img" fill-opacity="0.15" fill="#8CA23B" x="0" y="0" width="80" height="80" rx="10"></rect><g id="Calculator" transform="translate(24.000000, 24.000000)" fill-rule="nonzero"><path d="M31.0227051,0 L0.977294937,0 C0.4375,0 -1.77635684e-15,0.4375 -1.77635684e-15,0.977294937 L-1.77635684e-15,31.0227051 C-1.77635684e-15,31.5625 0.4375,32 0.977294937,32 L17.0715944,32 L17.0715944,30.0454101 L16.9772949,17.0778987 L32,17.0778987 L32,0.977294938 C32,0.4375 31.5625,0 31.0227051,0 Z M30.0454101,15.0227051 L16.9772949,15.0227051 L16.9772949,1.95458987 L30.0454101,1.95458987 L30.0454101,15.0227051 Z M1.95458987,1.95458987 L15.0227051,1.95458987 L15.0227051,15.0227051 L1.95458987,15.0227051 L1.95458987,1.95458987 Z M1.95458987,16.9772949 L15.0227051,16.9772949 L15.0227051,30.0454101 L1.95458987,30.0454101 L1.95458987,16.9772949 Z" id="Shape" fill="#0D486E"></path><path d="M20.8195801,9.46606444 L26.203125,9.46606444 C26.7429199,9.46606444 27.1804199,9.02832031 27.1804199,8.4887695 C27.1804199,7.94897462 26.7429199,7.51147462 26.203125,7.51147462 L20.8195801,7.51147462 C20.2797851,7.51147462 19.8422851,7.94897462 19.8422851,8.4887695 C19.8422851,9.02832031 20.2797851,9.46606444 20.8195801,9.46606444 L20.8195801,9.46606444 Z" id="Path" fill="#F7B418"></path><path d="M11.1804199,7.5112305 L9.46582031,7.5112305 L9.46582031,5.796875 C9.46582031,5.25708006 9.02807619,4.81958006 8.48852537,4.81958006 C7.9487305,4.81958006 7.5112305,5.25708006 7.5112305,5.796875 L7.5112305,7.5112305 L5.796875,7.5112305 C5.25708006,7.5112305 4.81958006,7.9487305 4.81958006,8.48852537 C4.81958006,9.02832031 5.25708006,9.46582031 5.796875,9.46582031 L7.51098631,9.46582031 L7.51098631,11.1804199 C7.51098631,11.7202149 7.9487305,12.1577149 8.48828125,12.1577149 C9.02807619,12.1577149 9.46557619,11.7202149 9.46557619,11.1804199 L9.46557619,9.46582031 L11.1804199,9.46582031 C11.7202149,9.46582031 12.1577149,9.02832031 12.1577149,8.48852537 C12.1577149,7.9487305 11.7202149,7.5112305 11.1804199,7.5112305 Z" id="Path" fill="#F7B418"></path><path d="M9.8706055,23.5112305 L11.0827637,22.2990723 C11.4643555,21.9174805 11.4643555,21.298584 11.0827637,20.9169922 C10.7011719,20.5354004 10.0822754,20.5354004 9.70068362,20.9169922 L8.48852538,22.1291504 L7.27612306,20.9169922 C6.89428713,20.5354004 6.27563475,20.5354004 5.894043,20.9169922 C5.51245119,21.298584 5.51245119,21.9174805 5.894043,22.2990723 L7.10644531,23.5112305 L5.894043,24.7236328 C5.512207,25.1052246 5.512207,25.7241211 5.894043,26.1057129 C6.08471681,26.2966309 6.33496094,26.3920899 6.58496094,26.3920899 C6.83496094,26.3920899 7.08520506,26.2966309 7.27587888,26.1057129 L8.48852538,24.8933106 L9.70117188,26.1057129 C9.89184569,26.2966309 10.1420899,26.3920899 10.3920899,26.3920899 C10.642334,26.3920899 10.892334,26.2966309 11.0832519,26.1057129 C11.4648438,25.7241211 11.4648438,25.1052246 11.0830078,24.7236328 L9.8706055,23.5112305 Z" id="Path" fill="#F7B418"></path></g></g></g></g></g></g></g></svg>
-                              <span>Unit Calculator.</span> <br>
-                              <span>You can calculate how many Electricity units you will get for 
-                                the amount you plan to buy.</span>
-                          </div>
-                      </div>
-                      <div class="contain-sections">
-                          <div class="contain-sections-wrap">
-                             <svg class="service__support__mg" width="60px" height="60px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink"><title>reminders</title><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Home-Copy" transform="translate(-370.000000, -1387.000000)"><g id="Group-23" transform="translate(0.000000, 900.000000)"><g id="reminders" transform="translate(370.000000, 487.000000)"><rect id="benefits-img" fill-opacity="0.15" fill="#8CA23B" x="0" y="0" width="80" height="80" rx="10"></rect><g id="Reminders" transform="translate(24.000000, 24.000000)" fill-rule="nonzero"><path d="M28.6328125,8.41992183 C27.9700521,8.74055992 27.6927083,9.53808592 28.0133463,10.2005208 C28.8893229,12.0100912 29.3333333,13.960612 29.3333333,16 C29.3333333,23.351888 23.351888,29.3333333 16,29.3333333 C8.648112,29.3333333 2.66666667,23.351888 2.66666667,16 C2.66666667,8.648112 8.648112,2.66666667 16,2.66666667 C19.0465495,2.66666667 21.9085287,3.66145833 24.2773437,5.54329425 C24.851888,6.00195317 25.6920573,5.9059245 26.1507162,5.32942708 C26.609375,4.75325517 26.5133463,3.9140625 25.9365234,3.45605467 C23.1321615,1.2272135 19.6031901,0 16,0 C7.17805992,0 -1.77635684e-15,7.17805992 -1.77635684e-15,16 C-1.77635684e-15,24.8219401 7.17805992,32 16,32 C24.8219401,32 32,24.8219401 32,16 C32,13.5553385 31.4661458,11.2125651 30.4134115,9.039388 C30.0934245,8.3753255 29.2932942,8.09863283 28.6328125,8.41992183 Z" id="Path" fill="#0D486E"></path><path d="M16,5.33333333 C15.2639974,5.33333333 14.6666667,5.93066408 14.6666667,6.66666667 L14.6666667,16 C14.6666667,16.7360026 15.2639974,17.3333333 16,17.3333333 L22.6666667,17.3333333 C23.4026693,17.3333333 24,16.7360026 24,16 C24,15.2639974 23.4026692,14.6666667 22.6666667,14.6666667 L17.3333333,14.6666667 L17.3333333,6.66666667 C17.3333333,5.93066408 16.7360026,5.33333333 16,5.33333333 Z" id="Path" fill="#F7B418"></path></g></g></g></g></g></svg>
-                              <span>Set Reminders.</span> <br>
-                              <span>Let us remind you to Buy Electricity. Set a reminder date and we 
-                                wont forget.</span>
-                          </div>
-                          <div class="contain-sections-wrap">
-                              <svg class="service__support__mg" width="60px" height="60px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink"><title>bank</title><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Home-Copy" transform="translate(-810.000000, -1387.000000)"><g id="Group-23" transform="translate(0.000000, 900.000000)"><g id="Group-5" transform="translate(370.000000, 487.000000)"><g id="bank" transform="translate(440.000000, 0.000000)"><rect id="benefits-img" fill-opacity="0.15" fill="#8CA23B" x="0" y="0" width="80" height="80" rx="10"></rect><g id="Bank" transform="translate(24.000000, 24.000000)" fill-rule="nonzero"><path d="M30.532766,29.0845957 L1.45429787,29.0845957 C0.650893617,29.0845957 0,29.7354894 0,30.5395745 C0,31.3422979 0.650893617,31.9931915 1.45429787,31.9931915 L30.5320851,31.9931915 C31.3354894,31.9931915 31.986383,31.3422979 31.986383,30.5395745 C31.9857021,29.7354894 31.3348085,29.0845957 30.532766,29.0845957 Z" id="Path" fill="#F7B418"></path><path d="M3.27148936,25.3038298 C2.46808511,25.3038298 1.81719149,25.9547234 1.81719149,26.7581277 C1.81719149,27.5615319 2.46808511,28.2131064 3.27148936,28.2131064 L28.7148936,28.2131064 C29.5182979,28.2131064 30.1691915,27.5615319 30.1691915,26.7581277 C30.1691915,25.9547234 29.5182979,25.3038298 28.7148936,25.3038298 L28.352,25.3038298 L28.352,12.2178723 L28.7148936,12.2178723 C29.1172766,12.2178723 29.4413617,11.8924255 29.4413617,11.4914043 C29.4413617,11.090383 29.1159149,10.7649362 28.7148936,10.7649362 L3.27148936,10.7649362 C2.86978723,10.7649362 2.54502128,11.090383 2.54502128,11.4914043 C2.54502128,11.8924255 2.87046809,12.2178723 3.27148936,12.2178723 L3.63506383,12.2178723 L3.63506383,25.3031489 L3.27148936,25.3031489 L3.27148936,25.3038298 Z M25.4434043,12.2178723 L25.4434043,25.3031489 L21.0818723,25.3031489 L21.0818723,12.2178723 L25.4434043,12.2178723 Z M18.1732766,12.2178723 L18.1732766,25.3031489 L13.8117447,25.3031489 L13.8117447,12.2178723 L18.1732766,12.2178723 Z M6.54229787,12.2178723 L10.9038298,12.2178723 L10.9038298,25.3031489 L6.54229787,25.3031489 L6.54229787,12.2178723 Z" id="Shape" fill="#0D486E"></path><path d="M15.8069958,1.04808287 C15.9262335,0.994660953 16.0623974,0.994351843 16.1806319,1.04741892 L16.1806319,1.04741892 L30.661956,7.56367304 C30.7664861,7.59114832 30.8560248,7.6551026 30.9170644,7.7405918 C30.9699487,7.81465928 31.0006809,7.90543302 31.0006809,8.00340426 C31.0006809,8.12893074 30.9500411,8.24263904 30.8677899,8.32489017 C30.7855875,8.40709259 30.6719326,8.45770213 30.546383,8.45770213 L30.546383,8.45770213 L1.45429787,8.45770213 C1.34720709,8.45770213 1.24738384,8.42035664 1.16873316,8.35681081 C1.09024526,8.29339649 1.03285016,8.20388541 1.01025005,8.09849188 C0.987787892,7.99423358 1.00334304,7.8892426 1.04881648,7.79934626 L1.04881648,7.79934626 Z" id="Path" stroke="#0D486E" stroke-width="2"></path></g></g></g></g></g></g></svg>
-                              <span>Pay with Bank Transfers.</span> <br>
-                              <span>Make payments via our Bank Transfer option and get value immediately.</span>
-                          </div>
-                          <div class="contain-sections-wrap">
-                              <svg class="service__support__mg" width="60px" height="60px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink"><title>support</title><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Home-Copy" transform="translate(-1250.000000, -1387.000000)"><g id="Group-23" transform="translate(0.000000, 900.000000)"><g id="Group-5" transform="translate(370.000000, 487.000000)"><g id="support" transform="translate(880.000000, 0.000000)"><rect id="benefits-img" fill-opacity="0.15" fill="#8CA23B" x="0" y="0" width="80" height="80" rx="10"></rect><g id="Support" transform="translate(24.000000, 24.000000)" fill-rule="nonzero"><path d="M29,14.5 L28.5,14.5 L28.5,12.5 C28.5,5.6075 22.8925,0 16,0 C9.1075,0 3.5,5.6075 3.5,12.5 L3.5,14.5 L3,14.5 C1.3458125,14.5 0,15.8458125 0,17.5 L0,22 C0,23.6541875 1.3458125,25 3,25 L4.172,25 C4.5848125,26.1639375 5.696375,27 7,27 C8.6541875,27 10,25.6541875 10,24 L10,15.5 C10,13.189875 7.486625,11.75125 5.5,12.903625 L5.5,12.5 C5.5,6.71025 10.21025,2 16,2 C21.78975,2 26.5,6.71025 26.5,12.5 L26.5,12.903625 C24.5185625,11.75425 22,13.18525 22,15.5 L22,24 C22,25.6541875 23.3458125,27 25,27 C26.303625,27 27.4151875,26.1639375 27.828,25 L27.91625,25 C27.43875,27.8340625 24.96775,30 22.0000625,30 L18.0000625,30 C18.0000625,28.8971875 17.102875,28 16.0000625,28 C14.89725,28 14.0000625,28.8971875 14.0000625,30 C14.0000625,31.1028125 14.89725,32 16.0000625,32 L22.0000625,32 C26.1265625,32 29.5330625,28.8594375 29.9556875,24.843 C31.1425,24.4429375 32,23.3200625 32,22 L32,17.5 C32,15.8458125 30.6541875,14.5 29,14.5 Z" id="Shape" fill="#0D486E"></path><path d="M2,22 L2,17.5 C2,16.948625 2.448625,16.5 3,16.5 L4,16.5 L4,23 L3,23 C2.448625,23 2,22.551375 2,22 Z" id="Path" fill="#F7B418"></path><path d="M7,14.5 C7.551375,14.5 8,14.948625 8,15.5 L8,24 C8,24.551375 7.551375,25 7,25 C6.448625,25 6,24.551375 6,24 L6,15.5 C6,14.948625 6.448625,14.5 7,14.5 Z" id="Path" fill="#F7B418"></path><path d="M25,25 C24.448625,25 24,24.551375 24,24 L24,15.5 C24,14.948625 24.448625,14.5 25,14.5 C25.551375,14.5 26,14.948625 26,15.5 L26,24 C26,24.551375 25.551375,25 25,25 Z" id="Path" fill="#F7B418"></path><path d="M30,22 C30,22.551375 29.551375,23 29,23 L28,23 L28,16.5 L29,16.5 C29.551375,16.5 30,16.948625 30,17.5 L30,22 Z" id="Path" fill="#F7B418"></path></g></g></g></g></g></g></svg>
-                              <span>24/7 Customer Support.</span> <br>
-                              <span>Enjoy our Customer Service and have your issues resolved anytime- day and night.</span>
-                          </div>
-                      </div>
-                  </div>
-              </section>
+            </div>
+          </div>
+        </div>
+        <div>
+          <section class="section-1">
+            <div class="contain">
+              <div>
+                <p>Why Choose BuyPower?</p>
+              </div>
+              <div class="contain-sections">
+                <div class="contain-sections-wrap">
+                  <svg class="service__support__mg" width="60px" height="60px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink"><title>loan</title><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Home-Copy" transform="translate(-368.000000, -1098.000000)"><g id="Group-23" transform="translate(0.000000, 900.000000)"><g id="Group-8" transform="translate(368.000000, 83.000000)"><g id="loan" transform="translate(0.000000, 115.000000)"><rect id="benefits-img" fill-opacity="0.15" fill="#8CA23B" x="0" y="0" width="80" height="80" rx="10"></rect><g id="Loan" transform="translate(25.000000, 24.000000)"><path d="M18.75,30.8815862 L18.75,30.8815862 L2.83007778,30.9813645 C1.27680726,30.9908574 0.00976287,29.7388215 0,28.1846432 C0,28.1787806 0,28.1729179 0,28.1670552 L0,3.79545392 C0,2.24124532 1.25919914,0.981310308 2.8125,0.981310308 L27.1875,0.981310308 C28.7408009,0.981310308 30,2.24124532 30,3.79545392 L30,16.0748476 L30,16.0748476" id="Path" stroke="#0D486E" stroke-width="2" stroke-linecap="round"></path><path d="M27.8125,28.75 C27.2955625,28.75 26.875,28.3294375 26.875,27.8125 C26.875,27.29475 26.45525,26.875 25.9375,26.875 C25.41975,26.875 25,27.29475 25,27.8125 C25,29.0346875 25.7838125,30.07675 26.875,30.46375 L26.875,30.9375 C26.875,31.45525 27.29475,31.875 27.8125,31.875 C28.33025,31.875 28.75,31.45525 28.75,30.9375 L28.75,30.46375 C29.8411875,30.07675 30.625,29.0346875 30.625,27.8125 C30.625,26.2616875 29.3633125,25 27.8125,25 C27.2955625,25 26.875,24.5794375 26.875,24.0625 C26.875,23.5455625 27.2955625,23.125 27.8125,23.125 C28.3294375,23.125 28.75,23.5455625 28.75,24.0625 C28.75,24.58025 29.16975,25 29.6875,25 C30.20525,25 30.625,24.58025 30.625,24.0625 C30.625,22.8403125 29.8411875,21.79825 28.75,21.41125 L28.75,20.9375 C28.75,20.41975 28.33025,20 27.8125,20 C27.29475,20 26.875,20.41975 26.875,20.9375 L26.875,21.41125 C25.7838125,21.79825 25,22.8403125 25,24.0625 C25,25.6133125 26.2616875,26.875 27.8125,26.875 C28.3294375,26.875 28.75,27.2955625 28.75,27.8125 C28.75,28.3294375 28.3294375,28.75 27.8125,28.75 Z" id="Path" fill="#F7B418" fill-rule="nonzero"></path><rect id="Rectangle" fill="#0D486E" fill-rule="nonzero" x="4" y="7" width="22" height="2" rx="1"></rect><rect id="Rectangle" fill="#0D486E" fill-rule="nonzero" x="4" y="15" width="22" height="2" rx="1"></rect><rect id="Rectangle" fill="#0D486E" fill-rule="nonzero" x="4" y="23" width="11" height="2" rx="1"></rect></g></g></g></g></g></g></svg>
+                  <span>Buy Now, Pay in 14 Days.</span> <br>
+                  <span>You can Buy Electricity with a loan on Buypower.ng and payback in 14 days.</span>
+                </div>
+                <div class="contain-sections-wrap">
+                  <svg class="service__support__mg" width="60px" height="60px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink"><title>ussd</title><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Home-Copy" transform="translate(-808.000000, -1098.000000)"><g id="Group-23" transform="translate(0.000000, 900.000000)"><g id="Group-8" transform="translate(368.000000, 83.000000)"><g id="Group-7" transform="translate(0.000000, 115.000000)"><g id="ussd" transform="translate(440.000000, 0.000000)"><rect id="benefits-img" fill-opacity="0.15" fill="#8CA23B" x="0" y="0" width="80" height="80" rx="10"></rect><g id="USSD" transform="translate(24.000000, 24.000000)" fill-rule="nonzero"><rect id="Rectangle" fill="#F7B418" x="0" y="20" width="32" height="3" rx="1"></rect><path d="M14.5867307,0.0514835511 C15.3869299,0.265896269 15.8618036,1.0884017 15.6473909,1.88860086 L7.88281954,30.8663756 C7.66840682,31.6665748 6.84590139,32.1414485 6.04570223,31.9270358 C5.24550308,31.7126231 4.77062934,30.8901177 4.98504206,30.0899185 L12.7496134,1.11214372 C12.9640261,0.311944568 13.7865316,-0.162929166 14.5867307,0.0514835511 Z" id="Rectangle" fill="#0D486E"></path><rect id="Rectangle" fill="#F7B418" x="0" y="10" width="32" height="3" rx="1"></rect><path d="M26.0596109,0.0514835511 C26.85981,0.265896269 27.3346837,1.0884017 27.120271,1.88860086 L19.3556997,30.8663756 C19.141287,31.6665748 18.3187815,32.1414485 17.5185824,31.9270358 C16.7183832,31.7126231 16.2435095,30.8901177 16.4579222,30.0899185 L24.2224936,1.11214372 C24.4369063,0.311944568 25.2594117,-0.162929166 26.0596109,0.0514835511 Z" id="Rectangle" fill="#0D486E"></path></g></g></g></g></g></g></g></svg>
+                  <span>Pay with USSD.</span> <br>
+                  <span>No internet? Buy Electricity by dialing *402*00009548*amount# on any kind of mobile device.</span>
+                </div>
+                <div class="contain-sections-wrap">
+                  <svg class="service__support__mg" width="60px" height="60px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink"><title>calculator</title><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Home-Copy" transform="translate(-1248.000000, -1098.000000)"><g id="Group-23" transform="translate(0.000000, 900.000000)"><g id="Group-8" transform="translate(368.000000, 83.000000)"><g id="Group-7" transform="translate(0.000000, 115.000000)"><g id="calculator" transform="translate(880.000000, 0.000000)"><rect id="benefits-img" fill-opacity="0.15" fill="#8CA23B" x="0" y="0" width="80" height="80" rx="10"></rect><g id="Calculator" transform="translate(24.000000, 24.000000)" fill-rule="nonzero"><path d="M31.0227051,0 L0.977294937,0 C0.4375,0 -1.77635684e-15,0.4375 -1.77635684e-15,0.977294937 L-1.77635684e-15,31.0227051 C-1.77635684e-15,31.5625 0.4375,32 0.977294937,32 L17.0715944,32 L17.0715944,30.0454101 L16.9772949,17.0778987 L32,17.0778987 L32,0.977294938 C32,0.4375 31.5625,0 31.0227051,0 Z M30.0454101,15.0227051 L16.9772949,15.0227051 L16.9772949,1.95458987 L30.0454101,1.95458987 L30.0454101,15.0227051 Z M1.95458987,1.95458987 L15.0227051,1.95458987 L15.0227051,15.0227051 L1.95458987,15.0227051 L1.95458987,1.95458987 Z M1.95458987,16.9772949 L15.0227051,16.9772949 L15.0227051,30.0454101 L1.95458987,30.0454101 L1.95458987,16.9772949 Z" id="Shape" fill="#0D486E"></path><path d="M20.8195801,9.46606444 L26.203125,9.46606444 C26.7429199,9.46606444 27.1804199,9.02832031 27.1804199,8.4887695 C27.1804199,7.94897462 26.7429199,7.51147462 26.203125,7.51147462 L20.8195801,7.51147462 C20.2797851,7.51147462 19.8422851,7.94897462 19.8422851,8.4887695 C19.8422851,9.02832031 20.2797851,9.46606444 20.8195801,9.46606444 L20.8195801,9.46606444 Z" id="Path" fill="#F7B418"></path><path d="M11.1804199,7.5112305 L9.46582031,7.5112305 L9.46582031,5.796875 C9.46582031,5.25708006 9.02807619,4.81958006 8.48852537,4.81958006 C7.9487305,4.81958006 7.5112305,5.25708006 7.5112305,5.796875 L7.5112305,7.5112305 L5.796875,7.5112305 C5.25708006,7.5112305 4.81958006,7.9487305 4.81958006,8.48852537 C4.81958006,9.02832031 5.25708006,9.46582031 5.796875,9.46582031 L7.51098631,9.46582031 L7.51098631,11.1804199 C7.51098631,11.7202149 7.9487305,12.1577149 8.48828125,12.1577149 C9.02807619,12.1577149 9.46557619,11.7202149 9.46557619,11.1804199 L9.46557619,9.46582031 L11.1804199,9.46582031 C11.7202149,9.46582031 12.1577149,9.02832031 12.1577149,8.48852537 C12.1577149,7.9487305 11.7202149,7.5112305 11.1804199,7.5112305 Z" id="Path" fill="#F7B418"></path><path d="M9.8706055,23.5112305 L11.0827637,22.2990723 C11.4643555,21.9174805 11.4643555,21.298584 11.0827637,20.9169922 C10.7011719,20.5354004 10.0822754,20.5354004 9.70068362,20.9169922 L8.48852538,22.1291504 L7.27612306,20.9169922 C6.89428713,20.5354004 6.27563475,20.5354004 5.894043,20.9169922 C5.51245119,21.298584 5.51245119,21.9174805 5.894043,22.2990723 L7.10644531,23.5112305 L5.894043,24.7236328 C5.512207,25.1052246 5.512207,25.7241211 5.894043,26.1057129 C6.08471681,26.2966309 6.33496094,26.3920899 6.58496094,26.3920899 C6.83496094,26.3920899 7.08520506,26.2966309 7.27587888,26.1057129 L8.48852538,24.8933106 L9.70117188,26.1057129 C9.89184569,26.2966309 10.1420899,26.3920899 10.3920899,26.3920899 C10.642334,26.3920899 10.892334,26.2966309 11.0832519,26.1057129 C11.4648438,25.7241211 11.4648438,25.1052246 11.0830078,24.7236328 L9.8706055,23.5112305 Z" id="Path" fill="#F7B418"></path></g></g></g></g></g></g></g></svg>
+                  <span>Unit Calculator.</span> <br>
+                  <span>You can calculate how many Electricity units you will get for the amount you plan to buy.</span>
+                </div>
+              </div>
+              <div class="contain-sections">
+                <div class="contain-sections-wrap">
+                 <svg class="service__support__mg" width="60px" height="60px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink"><title>reminders</title><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Home-Copy" transform="translate(-370.000000, -1387.000000)"><g id="Group-23" transform="translate(0.000000, 900.000000)"><g id="reminders" transform="translate(370.000000, 487.000000)"><rect id="benefits-img" fill-opacity="0.15" fill="#8CA23B" x="0" y="0" width="80" height="80" rx="10"></rect><g id="Reminders" transform="translate(24.000000, 24.000000)" fill-rule="nonzero"><path d="M28.6328125,8.41992183 C27.9700521,8.74055992 27.6927083,9.53808592 28.0133463,10.2005208 C28.8893229,12.0100912 29.3333333,13.960612 29.3333333,16 C29.3333333,23.351888 23.351888,29.3333333 16,29.3333333 C8.648112,29.3333333 2.66666667,23.351888 2.66666667,16 C2.66666667,8.648112 8.648112,2.66666667 16,2.66666667 C19.0465495,2.66666667 21.9085287,3.66145833 24.2773437,5.54329425 C24.851888,6.00195317 25.6920573,5.9059245 26.1507162,5.32942708 C26.609375,4.75325517 26.5133463,3.9140625 25.9365234,3.45605467 C23.1321615,1.2272135 19.6031901,0 16,0 C7.17805992,0 -1.77635684e-15,7.17805992 -1.77635684e-15,16 C-1.77635684e-15,24.8219401 7.17805992,32 16,32 C24.8219401,32 32,24.8219401 32,16 C32,13.5553385 31.4661458,11.2125651 30.4134115,9.039388 C30.0934245,8.3753255 29.2932942,8.09863283 28.6328125,8.41992183 Z" id="Path" fill="#0D486E"></path><path d="M16,5.33333333 C15.2639974,5.33333333 14.6666667,5.93066408 14.6666667,6.66666667 L14.6666667,16 C14.6666667,16.7360026 15.2639974,17.3333333 16,17.3333333 L22.6666667,17.3333333 C23.4026693,17.3333333 24,16.7360026 24,16 C24,15.2639974 23.4026692,14.6666667 22.6666667,14.6666667 L17.3333333,14.6666667 L17.3333333,6.66666667 C17.3333333,5.93066408 16.7360026,5.33333333 16,5.33333333 Z" id="Path" fill="#F7B418"></path></g></g></g></g></g></svg>
+                  <span>Set Reminders.</span> <br>
+                  <span>Let us remind you to Buy Electricity. Set a reminder date and we wont forget.</span>
+                </div>
+                <div class="contain-sections-wrap">
+                  <svg class="service__support__mg" width="60px" height="60px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink"><title>bank</title><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Home-Copy" transform="translate(-810.000000, -1387.000000)"><g id="Group-23" transform="translate(0.000000, 900.000000)"><g id="Group-5" transform="translate(370.000000, 487.000000)"><g id="bank" transform="translate(440.000000, 0.000000)"><rect id="benefits-img" fill-opacity="0.15" fill="#8CA23B" x="0" y="0" width="80" height="80" rx="10"></rect><g id="Bank" transform="translate(24.000000, 24.000000)" fill-rule="nonzero"><path d="M30.532766,29.0845957 L1.45429787,29.0845957 C0.650893617,29.0845957 0,29.7354894 0,30.5395745 C0,31.3422979 0.650893617,31.9931915 1.45429787,31.9931915 L30.5320851,31.9931915 C31.3354894,31.9931915 31.986383,31.3422979 31.986383,30.5395745 C31.9857021,29.7354894 31.3348085,29.0845957 30.532766,29.0845957 Z" id="Path" fill="#F7B418"></path><path d="M3.27148936,25.3038298 C2.46808511,25.3038298 1.81719149,25.9547234 1.81719149,26.7581277 C1.81719149,27.5615319 2.46808511,28.2131064 3.27148936,28.2131064 L28.7148936,28.2131064 C29.5182979,28.2131064 30.1691915,27.5615319 30.1691915,26.7581277 C30.1691915,25.9547234 29.5182979,25.3038298 28.7148936,25.3038298 L28.352,25.3038298 L28.352,12.2178723 L28.7148936,12.2178723 C29.1172766,12.2178723 29.4413617,11.8924255 29.4413617,11.4914043 C29.4413617,11.090383 29.1159149,10.7649362 28.7148936,10.7649362 L3.27148936,10.7649362 C2.86978723,10.7649362 2.54502128,11.090383 2.54502128,11.4914043 C2.54502128,11.8924255 2.87046809,12.2178723 3.27148936,12.2178723 L3.63506383,12.2178723 L3.63506383,25.3031489 L3.27148936,25.3031489 L3.27148936,25.3038298 Z M25.4434043,12.2178723 L25.4434043,25.3031489 L21.0818723,25.3031489 L21.0818723,12.2178723 L25.4434043,12.2178723 Z M18.1732766,12.2178723 L18.1732766,25.3031489 L13.8117447,25.3031489 L13.8117447,12.2178723 L18.1732766,12.2178723 Z M6.54229787,12.2178723 L10.9038298,12.2178723 L10.9038298,25.3031489 L6.54229787,25.3031489 L6.54229787,12.2178723 Z" id="Shape" fill="#0D486E"></path><path d="M15.8069958,1.04808287 C15.9262335,0.994660953 16.0623974,0.994351843 16.1806319,1.04741892 L16.1806319,1.04741892 L30.661956,7.56367304 C30.7664861,7.59114832 30.8560248,7.6551026 30.9170644,7.7405918 C30.9699487,7.81465928 31.0006809,7.90543302 31.0006809,8.00340426 C31.0006809,8.12893074 30.9500411,8.24263904 30.8677899,8.32489017 C30.7855875,8.40709259 30.6719326,8.45770213 30.546383,8.45770213 L30.546383,8.45770213 L1.45429787,8.45770213 C1.34720709,8.45770213 1.24738384,8.42035664 1.16873316,8.35681081 C1.09024526,8.29339649 1.03285016,8.20388541 1.01025005,8.09849188 C0.987787892,7.99423358 1.00334304,7.8892426 1.04881648,7.79934626 L1.04881648,7.79934626 Z" id="Path" stroke="#0D486E" stroke-width="2"></path></g></g></g></g></g></g></svg>
+                  <span>Pay with Bank Transfers.</span> <br>
+                  <span>Make payments via our Bank Transfer option and get value immediately.</span>
+                </div>
+                <div class="contain-sections-wrap">
+                  <svg class="service__support__mg" width="60px" height="60px" viewBox="0 0 80 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink"><title>support</title><g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Home-Copy" transform="translate(-1250.000000, -1387.000000)"><g id="Group-23" transform="translate(0.000000, 900.000000)"><g id="Group-5" transform="translate(370.000000, 487.000000)"><g id="support" transform="translate(880.000000, 0.000000)"><rect id="benefits-img" fill-opacity="0.15" fill="#8CA23B" x="0" y="0" width="80" height="80" rx="10"></rect><g id="Support" transform="translate(24.000000, 24.000000)" fill-rule="nonzero"><path d="M29,14.5 L28.5,14.5 L28.5,12.5 C28.5,5.6075 22.8925,0 16,0 C9.1075,0 3.5,5.6075 3.5,12.5 L3.5,14.5 L3,14.5 C1.3458125,14.5 0,15.8458125 0,17.5 L0,22 C0,23.6541875 1.3458125,25 3,25 L4.172,25 C4.5848125,26.1639375 5.696375,27 7,27 C8.6541875,27 10,25.6541875 10,24 L10,15.5 C10,13.189875 7.486625,11.75125 5.5,12.903625 L5.5,12.5 C5.5,6.71025 10.21025,2 16,2 C21.78975,2 26.5,6.71025 26.5,12.5 L26.5,12.903625 C24.5185625,11.75425 22,13.18525 22,15.5 L22,24 C22,25.6541875 23.3458125,27 25,27 C26.303625,27 27.4151875,26.1639375 27.828,25 L27.91625,25 C27.43875,27.8340625 24.96775,30 22.0000625,30 L18.0000625,30 C18.0000625,28.8971875 17.102875,28 16.0000625,28 C14.89725,28 14.0000625,28.8971875 14.0000625,30 C14.0000625,31.1028125 14.89725,32 16.0000625,32 L22.0000625,32 C26.1265625,32 29.5330625,28.8594375 29.9556875,24.843 C31.1425,24.4429375 32,23.3200625 32,22 L32,17.5 C32,15.8458125 30.6541875,14.5 29,14.5 Z" id="Shape" fill="#0D486E"></path><path d="M2,22 L2,17.5 C2,16.948625 2.448625,16.5 3,16.5 L4,16.5 L4,23 L3,23 C2.448625,23 2,22.551375 2,22 Z" id="Path" fill="#F7B418"></path><path d="M7,14.5 C7.551375,14.5 8,14.948625 8,15.5 L8,24 C8,24.551375 7.551375,25 7,25 C6.448625,25 6,24.551375 6,24 L6,15.5 C6,14.948625 6.448625,14.5 7,14.5 Z" id="Path" fill="#F7B418"></path><path d="M25,25 C24.448625,25 24,24.551375 24,24 L24,15.5 C24,14.948625 24.448625,14.5 25,14.5 C25.551375,14.5 26,14.948625 26,15.5 L26,24 C26,24.551375 25.551375,25 25,25 Z" id="Path" fill="#F7B418"></path><path d="M30,22 C30,22.551375 29.551375,23 29,23 L28,23 L28,16.5 L29,16.5 C29.551375,16.5 30,16.948625 30,17.5 L30,22 Z" id="Path" fill="#F7B418"></path></g></g></g></g></g></g></svg>
+                  <span>24/7 Customer Support.</span> <br>
+                  <span>Enjoy our Customer Service and have your issues resolved anytime- day and night.</span>
+                </div>
+              </div>
+            </div>
+          </section>
               <section class="section-2">
-                  <div class="contain section-testimonial-container">
-                      <div class="section-testimonial">
-                          <div class="section-testimonial-1">
-                              <p>What our users are saying about us</p> 
-                              <span>See why we're rated 4.5 stars on the Playstore and Ranked 22 of 200 in finance on the App Store</span> 
-                          </div>
-                          <div class="section-testimonial-2">
-                              <div>
-                                  <div>
-                                     <span>
-                                        When I started using BuyPower to recharge my power, I have never had time when my unit finished completely as I can recharge anytime, anywhere. 
-                                        <span class="testimonial-socialmedia"><img src="https://buypower.ng/static/media/icon-twitter.d9da67d6.svg" alt="twitter-icon">@saniusmangombe</span>
-                                      </span>
-                                  </div>
-                                  <div>
-                                      <span>
-                                        It's been nice using buypower to purchase units.
-                                        <span class="testimonial-socialmedia"><img src="https://buypower.ng/static/media/icon-instagram.6eb89ff6.svg" alt="instagram-icon">@Itzazeez</span>
-                                      </span>
-                                  </div>
-                                  <div>
-                                      <span>
-                                        It's convenient for my family and I to buy units without the stress of going out to buy more.
-                                        <span class="testimonial-socialmedia"><img src="https://buypower.ng/static/media/icon-twitter.d9da67d6.svg" alt="twitter-icon">@mahddyboy</span>
-                                      </span>
-                                  </div>
-                              </div>
-                              <div>
-                                  <div>
-                                      <span>
-                                        I've been using the Buypowerng app and it's superb. Highly recommended for all the busy type. 
-                                        <span class="testimonial-socialmedia"><img src="https://buypower.ng/static/media/icon-instagram.6eb89ff6.svg" alt="instagram-icon">@shallar_1</span>
-                                      </span>
-                                  </div>
-                                  <div>
-                                      <span>
-                                        Made my life very easy. Before now if my units finish, I will have to go to the nearest office the next day of which long queues are usually met. In the end thanks to BuyPower. 
-                                        <span class="testimonial-socialmedia"><img src="https://buypower.ng/static/media/icon-twitter.d9da67d6.svg" alt="twitter-icon">@abdulaziz_bukar</span>
-                                      </span>
-                                  </div>
-                                  <div>
-                                      <span>
-                                        It's been very easy and effective
-                                        <span class="testimonial-socialmedia"><img src="https://buypower.ng/static/media/icon-instagram.6eb89ff6.svg" alt="instagram-icon">@Fhunteekay</span>
-                                      </span>
-                                  </div>
-                              </div>
-                          </div>
+                <div class="contain section-testimonial-container">
+                  <div class="section-testimonial">
+                    <div class="section-testimonial-1">
+                     <p>What our users are saying about us</p> 
+                     <span>See why we're rated 4.5 stars on the Playstore and Ranked 22 of 200 in finance on the App Store</span> 
+                    </div>
+                    <div class="section-testimonial-2">
+                      <div>
+                        <div>
+                          <span>
+                            When I started using BuyPower to recharge my power, I have never had time when my unit finished completely as I can recharge anytime, anywhere. 
+                            <span class="testimonial-socialmedia"><img src="https://buypower.ng/static/media/icon-twitter.d9da67d6.svg" alt="twitter-icon">@saniusmangombe</span>
+                          </span>
+                        </div>
+                        <div>
+                          <span>
+                            It's been nice using buypower to purchase units.
+                            <span class="testimonial-socialmedia"><img src="https://buypower.ng/static/media/icon-instagram.6eb89ff6.svg" alt="instagram-icon">@Itzazeez</span>
+                          </span>
+                        </div>
+                        <div>
+                          <span>
+                            It's convenient for my family and I to buy units without the stress of going out to buy more.
+                            <span class="testimonial-socialmedia"><img src="https://buypower.ng/static/media/icon-twitter.d9da67d6.svg" alt="twitter-icon">@mahddyboy</span>
+                          </span>
+                        </div>
                       </div>
-                  </div> 
+                      <div>
+                        <div>
+                          <span>
+                            I've been using the Buypowerng app and it's superb. Highly recommended for all the busy type. 
+                            <span class="testimonial-socialmedia"><img src="https://buypower.ng/static/media/icon-instagram.6eb89ff6.svg" alt="instagram-icon">@shallar_1</span>
+                          </span>
+                        </div>
+                        <div>
+                          <span>
+                            Made my life very easy. Before now if my units finish, I will have to go to the nearest office the next day of which long queues are usually met. In the end thanks to BuyPower. 
+                            <span class="testimonial-socialmedia"><img src="https://buypower.ng/static/media/icon-twitter.d9da67d6.svg" alt="twitter-icon">@abdulaziz_bukar</span>
+                          </span>
+                        </div>
+                        <div>
+                          <span>
+                            It's been very easy and effective
+                            <span class="testimonial-socialmedia"><img src="https://buypower.ng/static/media/icon-instagram.6eb89ff6.svg" alt="instagram-icon">@Fhunteekay</span>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div> 
               </section>
               <section class="service-provider">
-                  <div class="contain">
-                      <h3>Our Service Providers</h3>
-                      <div class="providers">
-                          <div>
-                             <div class="service">
-                                <a href="#"><img width="145" height="135" src="https://buypower.ng/static/media/Aedc.de20ada0.svg" alt="AEDC"></a>
-                             </div>
-                             <div class="service">
-                                <a href="#"><img width="145" height="135" src="https://buypower.ng/static/media/Eedc.83c6f334.svg" alt="EEDC"></a>
-                             </div>
-                             <div class="service">
-                                <a href="#"><img width="145" height="135" src="https://buypower.ng/static/media/EKEDC.62a496de.svg" alt="EKEDC"></a>
-                             </div>
-                             <div class="service">
-                                <a href="#"><img width="145" height="135" src="https://buypower.ng/static/media/Ibedc.885256cf.svg" alt="IBEDC"></a>
-                             </div>
-                             <div class="service">
-                                <a href="#"><img width="145" height="135" src="https://buypower.ng/static/media/Ikeja.5ce72c85.svg" alt="IKEJA"></a>
-                             </div>
-                             <div class="service">
-                                <a href="#"><img width="145" height="135" src="https://buypower.ng/static/media/Jedc.4e92534e.svg" alt="JEDC"></a>
-                             </div>
-                             <div class="service">
-                                <a href="#"><img width="145" height="135" src="https://buypower.ng/static/media/Kaduna.7c4019d3.svg" alt="KADUNA"></a>
-                             </div> 
-                             <div class="service">
-                                <a href="#"><img width="145" height="135" src="https://buypower.ng/static/media/Kedco.d8a236b7.svg" alt="KEDCO"></a>
-                             </div> 
-                             <div class="service">
-                                <a href="#"><img width="145" height="135" src="https://buypower.ng/static/media/Phedc.1983fe10.svg" alt="PHEDC"></a>
-                             </div>
-                          </div>
-                      </div>
+                <div class="contain">
+                  <h3>Our Service Providers</h3>
+                  <div class="providers">
+                    <div>
+                      <div class="service">
+                       <a href="#"><img width="145" height="135" src="https://buypower.ng/static/media/Aedc.de20ada0.svg" alt="AEDC"></a>
+                     </div>
+                     <div class="service">
+                        <a href="#"><img width="145" height="135" src="https://buypower.ng/static/media/Eedc.83c6f334.svg" alt="EEDC"></a>
+                     </div>
+                     <div class="service">
+                        <a href="#"><img width="145" height="135" src="https://buypower.ng/static/media/EKEDC.62a496de.svg" alt="EKEDC"></a>
+                     </div>
+                     <div class="service">
+                        <a href="#"><img width="145" height="135" src="https://buypower.ng/static/media/Ibedc.885256cf.svg" alt="IBEDC"></a>
+                     </div>
+                     <div class="service">
+                        <a href="#"><img width="145" height="135" src="https://buypower.ng/static/media/Ikeja.5ce72c85.svg" alt="IKEJA"></a>
+                     </div>
+                     <div class="service">
+                        <a href="#"><img width="145" height="135" src="https://buypower.ng/static/media/Jedc.4e92534e.svg" alt="JEDC"></a>
+                     </div>
+                     <div class="service">
+                        <a href="#"><img width="145" height="135" src="https://buypower.ng/static/media/Kaduna.7c4019d3.svg" alt="KADUNA"></a>
+                     </div> 
+                     <div class="service">
+                        <a href="#"><img width="145" height="135" src="https://buypower.ng/static/media/Kedco.d8a236b7.svg" alt="KEDCO"></a>
+                     </div> 
+                     <div class="service">
+                        <a href="#"><img width="145" height="135" src="https://buypower.ng/static/media/Phedc.1983fe10.svg" alt="PHEDC"></a>
+                     </div>
+                    </div>
                   </div>
+                </div>
               </section> 
               <section class="section-mobile">
-                  <div class="contain utility-flex">
-                      <div class="section-mobile-image">
-                          <div class="service">
-                              <img class="checkoutimg" src="https://buypower.ng/static/media/checkout.cccc7ddb.svg" alt="Checkout">
-                          </div>
-                          <div class="service">
-                              <img class="mobileimg" src="https://buypower.ng/static/media/mobile.98ad00f3.svg" alt="mobile">
-                          </div>
-                          <div class="service">
-                            <img class="contactimg" src="https://buypower.ng/static/media/contact.b08475a9.svg" alt="contact">
-                          </div>
-                      </div>
-                      <div class="section-mobile-link">
-                          <h3>Download our Mobile app</h3> 
-                          <span>Top up your electricity in 3 simple steps with our Mobile App</span>
-                          <div>
-                              <div class="service">
-                                  <a href="#"><img width="129px" height="43px" src="https://buypower.ng/static/media/Apple.79c016d9.svg" alt="Apple"></a>
-                              </div>
-                              <div class="service">
-                                  <a href="#"><img width="145px" height="43px" src="https://buypower.ng/static/media/Google.cc6e4ca0.svg" alt="Playstore"></a>
-                              </div>
-                          </div>
-                      </div>
+                <div class="contain utility-flex">
+                  <div class="section-mobile-image">
+                    <div class="service">
+                      <img class="checkoutimg" src="https://buypower.ng/static/media/checkout.cccc7ddb.svg" alt="Checkout">
+                    </div>
+                    <div class="service">
+                      <img class="mobileimg" src="https://buypower.ng/static/media/mobile.98ad00f3.svg" alt="mobile">
+                    </div>
+                    <div class="service">
+                      <img class="contactimg" src="https://buypower.ng/static/media/contact.b08475a9.svg" alt="contact">
+                    </div>
                   </div>
+                  <div class="section-mobile-link">
+                    <h3>Download our Mobile app</h3> 
+                    <span>Top up your electricity in 3 simple steps with our Mobile App</span>
+                    <div>
+                     <div class="service">
+                        <a href="#"><img width="129px" height="43px" src="https://buypower.ng/static/media/Apple.79c016d9.svg" alt="Apple"></a>
+                      </div>
+                      <div class="service">
+                        <a href="#"><img width="145px" height="43px" src="https://buypower.ng/static/media/Google.cc6e4ca0.svg" alt="Playstore"></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </section>
               <div class="section-bills">
-                  <div class="section-bills-1">
-                      <div>
-                          <h4>Buy Electricity instantly with <br>
-                            BuyPower</h4> 
-                          <span>Enter your phone number to begin</span>
-                      </div>
+                <div class="section-bills-1">
+                  <div>
+                    <h4>Buy Electricity instantly with <br>
+                    BuyPower</h4> 
+                    <span>Enter your phone number to begin</span>
                   </div>
-                  <div class="section-bills-2">
+                </div>
+                <div class="section-bills-2">
+                  <div>
+                    <form>
                       <div>
-                          <form>
-                              <div>
-                                  <input type="tel" id="phoneinput2" name="phone" placeholder="0000-0000-0000">
-                                  <button type="submit">Get Started</button>
-                              </div>
-                          </form>
+                        <input type="tel" id="phoneinput2" name="phone" placeholder="0000-0000-0000">
+                        <button type="submit">Get Started</button>
                       </div>
+                    </form>
                   </div>
+                </div>
               </div>
-          </div>
+        </div>
       </div>
       <div class="footer-container">
         <div id="footer">
-            <footer id="footer">
-                <div class="footer__mobile">
-                    <div><img height="60px" src="https://techpoint.africa/wp-content/uploads/2019/08/New-logo-2.png" alt="buypower logo">
-            <div>©2022 BuyPower Inc. Datapex Drifty
-            Technologies. All Rights Reserved.</div>
+          <footer id="footer">
+            <!-----<div class="footer__mobile">
+              <div><img height="60px" src="https://techpoint.africa/wp-content/uploads/2019/08/New-logo-2.png" alt="buypower logo">
+               <div>©2022 BuyPower Inc. Datapex Drifty
+               Technologies. All Rights Reserved.</div>
                     </div>
-                   <!-- <div class="footer-social">
+                    <div class="footer-social">
                       <a href="#"><img src="https://buypower.ng/static/media/youtube.19a9961d.svg" alt="youtube-icon"></a>
-                                            <a href="#"><img src="https://buypower.ng/static/media/instagram.31b7b026.svg" alt="instagram-icon"></a>
-                                            <a href="#"><img src="https://buypower.ng/static/media/twitter.b64db85c.svg" alt="twitter-icon"></a>
-                                            <a href="#"><img src="https://buypower.ng/static/media/facebooksc.91631b2a.svg" alt="facebook-icon"></a>
+                      <a href="#"><img src="https://buypower.ng/static/media/instagram.31b7b026.svg" alt="instagram-icon"></a>
+                      <a href="#"><img src="https://buypower.ng/static/media/twitter.b64db85c.svg" alt="twitter-icon"></a>
+                      <a href="#"><img src="https://buypower.ng/static/media/facebooksc.91631b2a.svg" alt="facebook-icon"></a>
                     </div>
                   </div>
                   <div>
@@ -313,50 +305,49 @@
                         </div>
                       </div>
                     </div>
-                  </div>-->
-            
-                <div class="contain">
-                    <div class="footer--container">
-                         <div>
-                             <img src="https://techpoint.africa/wp-content/uploads/2019/08/New-logo-2.png" alt="buypower-logo">
-                             <div class="footer-copyright">&copy;2022 BuyPower Inc. Datapex Drifty
-                                Technologies. All Rights Reserved.</div>
-                                <div class="footer-social">
+            </div>-->
+            <div class="contain">
+            <div class="footer--container">
+              <div>
+                <img src="https://techpoint.africa/wp-content/uploads/2019/08/New-logo-2.png" alt="buypower-logo">
+               <div class="footer-copyright">&copy;2022 BuyPower Inc. Datapex Drifty
+                  Technologies. All Rights Reserved.</div>
+               <div class="footer-social">
                                     <a href="#"><img src="https://buypower.ng/static/media/youtube.19a9961d.svg" alt="youtube-icon"></a>
                                     <a href="#"><img src="https://buypower.ng/static/media/instagram.31b7b026.svg" alt="instagram-icon"></a>
                                     <a href="#"><img src="https://buypower.ng/static/media/twitter.b64db85c.svg" alt="twitter-icon"></a>
                                     <a href="#"><img src="https://buypower.ng/static/media/facebooksc.91631b2a.svg" alt="facebook-icon"></a>
-                                </div>
-                         </div>
-                         <div>
-                             <h4>Products</h4>
-                             <span><a href="#">Buy Electricity</a></span>
-                             <span>Data Bundle<sub>coming soon</sub></span>
-                             <span>Airtime<sub>coming soon</sub></span> 
-                             <span>TV<sub>coming soon</sub></span>
-                         </div>
-                         <div>
-                             <h4>Legal</h4> 
-                             <span><a href="#">Terms of Use</a></span>
-                             <span><a href="#">Privacy Poilcy</a></span>
-                         </div>
-                         <div>
-                             <h4>Learn</h4> 
-                             <span><a href="#">Press</a></span>
-                             <span><a href="#">Blog</a></span>
-                             <span><a href="#">FAQ</a></span>
-                         </div>
-                         <div>
-                             <h4>Company</h4> 
-                             <span><a href="#">Contact Us</a></span>
-                             <span><a href="#">About</a></span>
-                         </div>
-                     </div>
-                 </div>
-             </footer>
+              </div>
+              </div>
+              <div>
+               <h4>Products</h4>
+               <span><a href="#">Buy Electricity</a></span>
+               <span>Data Bundle<sub>coming soon</sub></span>
+               <span>Airtime<sub>coming soon</sub></span> 
+               <span>TV<sub>coming soon</sub></span>
+              </div>
+              <div>
+               <h4>Legal</h4> 
+               <span><a href="#">Terms of Use</a></span>
+               <span><a href="#">Privacy Poilcy</a></span>
+              </div>
+              <div>
+                <h4>Learn</h4> 
+               <span><a href="#">Press</a></span>
+               <span><a href="#">Blog</a></span>
+               <span><a href="#">FAQ</a></span>
+              </div>
+              <div>
+                <h4>Company</h4> 
+                <span><a href="#">Contact Us</a></span>
+                <span><a href="#">About</a></span>
+              </div>
+            </div>
+            </div>
+          </footer>
         </div>
       </div>
     </div>
     <script src="buypower.js"></script>
-</body>
+ </body>
 </html>
