@@ -1,3 +1,4 @@
+/*** Global style ***/
 * {
   margin: 0;
   padding: 0; 
@@ -36,6 +37,7 @@ body {
 div{
   display: block;
 }
+/*** Nav styles ***/
 .navbar {
   display: flex;
   justify-content: space-around;
@@ -54,18 +56,7 @@ div{
   color:#8ca23b;
 
 }
-.logo {
-  margin-top: -3px;
-  padding:14px;
-  width: 220px;
-  background-repeat: no-repeat;
-  background-image: url('https://buypower.ng/static/media/buypower-logo.f1a37804.png');
-  height: 70px;
-  display: block;
-  background-position: center;
-  background-size: cover;
-  text-align: left;
-}
+
 .nav-link2 {
 box-sizing: border-box;
 text-align: center;
@@ -162,6 +153,19 @@ header .logo {
   height: 52px;
 }
 }
+/*** Background styles ***/
+.logo {
+  margin-top: -3px;
+  padding:14px;
+  width: 220px;
+  background-repeat: no-repeat;
+  background-image: url('https://buypower.ng/static/media/buypower-logo.f1a37804.png');
+  height: 70px;
+  display: block;
+  background-position: center;
+  background-size: cover;
+  text-align: left;
+}
 .bg-img {
   background-repeat: no-repeat; 
   background-size: cover;
@@ -233,6 +237,7 @@ a {
     margin-right: 10px;
   }
 }
+
 .home-page .container form {
   position: relative; 
   z-index: 1;
@@ -411,6 +416,8 @@ button{
     margin-top: 30px;
 }
 }
+
+/*** First section styles ***/
 .section-1 p {
   font-style: normal;
   font-size: 30px;
@@ -487,6 +494,7 @@ p {
   height: fit-content;
 }
 }
+/*** Second section styles ***/
 .section-2 {
   background-color: #f7b418; 
   padding-top: 15px;
@@ -562,6 +570,7 @@ p {
     flex-direction: column;
   }
 }
+/*** Service Provider section styles ***/
 .service-provider {
   padding: 83px 0;
   background-color: #f5f6fa; 
@@ -729,6 +738,7 @@ img {
     width: 100%;
   }
 }
+/*** Bills section styles ***/
 .section-bills {
   display: flex;
   background-color: #f5f6fa;
@@ -821,6 +831,7 @@ img {
     box-sizing: border-box;
 }
 }
+/*** Footer section styles ***/
 #footer {
   background-color: #000;
   color: #fff;
