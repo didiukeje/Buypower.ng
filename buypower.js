@@ -5,31 +5,6 @@ window.onload = () => {
     };
 };
 
-// Attach a global event listener that listens for a change event
-// whatever.addEventListener = function(e) {
-  // const meterNoInput = document.getElementById('meterNo').value;
-  // const discoInput = document.getElementById('disco').value;
-  // const vendAmount = document.getElementById('vendAmount').value;
-  
-//   const amountHasEmitted = false; 
-//   const meterNoHasEmitted = false; 
-//   const vendHasEmitted = false;
-
-//   if (e.target.id === "amount") {
-// 
-//   }
-
-
-
-//if (amountHasEmitted && meterNoHasEmitted && vendHasEmitted && ...) {
-
-//}
-
-
-// }
-
-// 
-
 const meterNoInput = document.getElementById('meterNo');
 const discoInput = document.getElementById('disco');
 const vendAmount = document.getElementById('vendAmount');
