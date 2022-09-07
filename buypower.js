@@ -29,55 +29,24 @@ window.onload = () => {
 // }
 
 // 
-input.addEventListener = function (e) {
-  const meterNoInput = document.getElementById('meterNo').value;
-  const discoInput = document.getElementById('disco').value;
-  const vendAmount = document.getElementById('vendAmount').value;
 
-  const amountHasEmitted = false; 
-  const meterNoHasEmitted = false; 
-  const vendHasEmitted = false;
+const meterNoInput = document.getElementById('meterNo');
+const discoInput = document.getElementById('disco');
+const vendAmount = document.getElementById('vendAmount');
 
-
-  if (e.target.id === "meterNo") {
-     
-  }
-  if (e.target.id === "disco") {
-     
-  }
-  if (e.target.id === "vendAmount") {
-     
-  }
-
-
-  if (amountHasEmitted && meterNoHasEmitted && vendHasEmitted) {
-    document.getElementById('buy-electricity-btn').disabled=true;
-   } else {
-   document.getElementById('buy-electricity-btn').disabled=false;
- }
- 
+const inputChangeHandler = () => {
+  const paymentButton = document.getElementById("buy-electricity-btn");
+  if (!meterNoInput.value || !discoInput.value || !vendAmount.value) {
+		paymentButton.disabled = true;
+	} else {
+		paymentButton.disabled = false;
+	}
 }
 
+meterNoInput.addEventListener('change', inputChangeHandler);
+discoInput.addEventListener('change', inputChangeHandler);
+vendAmount.addEventListener('change', inputChangeHandler);
 
-
-
-
-function disableBtn() {
-  const meterNoInput = document.getElementById('meterNo');
-  const discoInput = document.getElementById('disco');
-  const vendAmount = document.getElementById('vendAmount');
-
-  console.log('meterNoInput.value', meterNoInput.value);
-  console.log('discoInput.value', discoInput.value);
-  console.log('vendAmount.value', vendAmount.value);
- 
-
-  if (document.getElementById('disco').value!="") {
-    document.getElementById('buy-electricity-btn').disabled=true;
-   } else {
-    document.getElementById('buy-electricity-btn').disabled=false;
-  }
-}
 
 const removeFranchiseId = document.getElementById('disco'); 
 const array = document.querySelectorAll('.location')
@@ -90,4 +59,3 @@ removeFranchiseId.addEventListener('change', function handleChange(event){
     console.log(array, "NONE");
   }
 });
-

@@ -921,6 +921,11 @@ sub, sup {
   vertical-align: baseline;
 }
 @media screen and (max-width: 698px){
+  .footer--container {
+    display: block;
+    width: 100%;
+    background-color: #303030;
+  }
   #footer {
     background-color: #303030;
     text-align: left;
@@ -1457,6 +1462,10 @@ button[disabled], input[disabled] {
   display: inline-block;
   align-items: flex-start;
 }
+.continue-button:hover:enabled {
+  background: #f7931e;
+  border-color: #f7931e;
+}
 .order-form .button, .order-form button, .order-summary .button, .order-summary button {
   width: 100%;
   display: block;
@@ -1546,6 +1555,9 @@ color: #000;
 }
 
 @media screen and (max-width: 690px) {
+  nav {
+    visibility: hidden;
+  }
   .footer__img {
     display: flex;
     justify-content: space-between;
